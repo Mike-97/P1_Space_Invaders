@@ -45,7 +45,7 @@ num_of_enemies = 6
 
 for i in range(num_of_enemies):
     EnemyImg.append(pygame.image.load('sci-fi.png'))
-    enemyX.append(random.randint(0, WINDOWWIDTH - 32))
+    enemyX.append(random.randint(2, WINDOWWIDTH - 34))
     enemyY.append(10)
     enemyX_change.append(1)
 

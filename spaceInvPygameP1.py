@@ -168,7 +168,7 @@ while True:
         collision = isColission(enemyX[i], enemyY[i], starX, starY)
         if collision:
             star_s = mixer.Sound('explosion.wav')
-            star_s.play(1)
+            star_s.play()
             starY = playerY
             bullet_state = 'ready'
             score_value += 1

@@ -196,20 +196,5 @@ while True:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-# Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-#<a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by freepik - www.freepik.com</a>
+# Icons from https://www.flaticon.com/authors/eucalyp
+# Background by freepik https://www.freepik.com/free-photos-vectors/background

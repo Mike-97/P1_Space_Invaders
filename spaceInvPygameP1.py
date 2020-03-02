@@ -1,4 +1,4 @@
-import pygame, sys, random, math, pyautogui, time
+import pygame, sys, random, math
 from pygame.locals import *
 from pygame import mixer
 

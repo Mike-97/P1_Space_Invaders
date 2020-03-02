@@ -5,7 +5,7 @@ from pygame import mixer
 WINDOWWIDTH = 800
 WINDOWHEIGHT = 600
 COLOR = (0, 0, 0)
-moveLeft = moveRight = moveUp = moveDown = False
+moveLeft = moveRight = False
 enemyYchange = 40
 FPS = 144
 
@@ -96,14 +96,13 @@ def isColission(enemyX, enemyY, starX, starY):
         return False
 
 pygame.mouse.set_visible(False)
-k = 1
+
 
 # Main Loop
 while True:
     screen.fill(COLOR)
     screen.blit(background, (0, 0))
-    k += 1
-
+    
     for event in pygame.event.get():
         if event.type == QUIT:
             terminate()
@@ -152,7 +151,7 @@ while True:
 
         if enemyY[i] > WINDOWHEIGHT - 64 or score_value == 20:
             for j in range(num_of_enemies):
-                enemyY[j] = 5
+                enemyY[j] = 2000
             game_over_text(textX, textY + 32)
             break
 

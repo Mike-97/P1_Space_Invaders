@@ -149,7 +149,7 @@ while True:
     # Enemy movement
     for i in range(num_of_enemies):
 
-        if enemyY[i] > WINDOWHEIGHT - 64 or score_value == 20:
+        if enemyY[i] > WINDOWHEIGHT - 80 or score_value == 20:
             for j in range(num_of_enemies):
                 enemyY[j] = 2000
             game_over_text(textX, textY + 32)
